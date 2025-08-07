@@ -1,4 +1,3 @@
-# Python-Easy-Medium-level-projects
 # 🐍 Python Projects Repository
 
 Welcome to my Python Projects repository! 🚀  
@@ -45,7 +44,8 @@ Stores your account passwords encrypted with `cryptography.Fernet`. Add new entr
 ---
 
 ### ✅ [PIG](./PIG game)  
-Create, view, and delete tasks saved in a text file—using Python lists and basic file I/O for persistence.
+A console implementation of the classic “Pig” dice game for 2–4 players. On your turn, you repeatedly roll a six-sided die:  
+First player to reach **50 points** wins!
 
 ---
 
