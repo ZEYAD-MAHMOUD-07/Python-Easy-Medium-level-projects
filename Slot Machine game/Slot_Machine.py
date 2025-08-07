@@ -33,22 +33,14 @@ def get_slot_machine_spin(rows, cols, symbols):
     for symbol, symbol_count in symbols.items():
         for _ in range(symbol_count):
             all_symbols.append(symbol)
-    # for symbol, count in symbols.items():
-    #   - يمر على كل عنصر في القاموس كزوج (رمز، عدد مرات التكرار)
-    #   - في كل دورة: symbol = المفتاح (مثل "A")، و count = القيمة (مثل 2)
-
-    # for _ in range(count):
-    #   - يكرر الكود الداخلي بعدد مرات count
-    #   - نستخدم _ لأننا لا نحتاج اسم المتغير
-    #   - الهدف هو تكرار الرمز عدة مرات وإضافته إلى القائمة
+    
 
     columns = []
 
     for _ in range(cols):
         column = []
         current_symbols = all_symbols[:]
-        # current_symbols = all_symbols[:]: عمل نسخة من جميع الرموز (حتى لا نعدل على all_symbols الأصلية).
-
+       
         for _ in range(rows):
             value = random.choice(current_symbols)
             current_symbols.remove(value)
@@ -167,3 +159,4 @@ def main():
 
 
 main()
+
