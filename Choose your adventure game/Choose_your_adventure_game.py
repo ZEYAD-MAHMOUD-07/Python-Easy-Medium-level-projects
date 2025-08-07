@@ -39,7 +39,7 @@ elif answer == "right":
         ).lower()
 
         if answer == "yes":
-            print("The stranger fucked you, You lose.")
+            print("The stranger killed you, You lose.")
 
         elif answer == "no":
             print("You ran away, and you found gold, You WIN.")
@@ -52,3 +52,4 @@ elif answer == "right":
 
 else:
     print("Not a valid option! You lose.")
+
